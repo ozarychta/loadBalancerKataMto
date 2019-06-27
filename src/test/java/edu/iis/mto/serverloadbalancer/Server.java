@@ -6,8 +6,8 @@ import java.util.List;
 public class Server {
 
     public static final double MAX_LOAD = 100.0d;
-    public double currentLoadPercentage;
-    public int capacity;
+    private double currentLoadPercentage;
+    private int capacity;
 
     private List<Vm> vms = new ArrayList<>();
 
@@ -16,16 +16,16 @@ public class Server {
     }
 
     public Server(int capacity) {
-        this.capacity = capacity;
+        this.setCapacity(capacity);
     }
 
     public void addVm(Vm vm) {
-        currentLoadPercentage += loadOfVm(vm);
+        setCurrentLoadPercentage(getCurrentLoadPercentage() + loadOfVm(vm));
         this.vms.add(vm);
     }
 
     private double loadOfVm(Vm vm) {
-        return (double) vm.size / (double) capacity * MAX_LOAD;
+        return (double) vm.getSize() / (double) getCapacity() * MAX_LOAD;
     }
 
     public int countVms() {
@@ -33,6 +33,22 @@ public class Server {
     }
 
     public boolean canFit(Vm vm) {
-        return currentLoadPercentage + (loadOfVm(vm)) <= MAX_LOAD;
+        return getCurrentLoadPercentage() + (loadOfVm(vm)) <= MAX_LOAD;
+    }
+
+    public double getCurrentLoadPercentage() {
+        return currentLoadPercentage;
+    }
+
+    public void setCurrentLoadPercentage(double currentLoadPercentage) {
+        this.currentLoadPercentage = currentLoadPercentage;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 }
