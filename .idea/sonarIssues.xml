@@ -33,6 +33,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Vm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/VmBuilder.java">
           <value>
             <set />
