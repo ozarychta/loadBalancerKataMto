@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb40eca9-0730-4d3b-94fe-93e50b1678a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/CurrentLoadPercentageMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/CurrentLoadPercentageMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerVmsCountMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+            <state relative-caret-position="375">
+              <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1189#1190#0" expanded="true" />
@@ -32,6 +34,22 @@
                 <element signature="e#589#590#0" expanded="true" />
                 <element signature="e#1604#1605#0" expanded="true" />
                 <element signature="e#1642#1643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerVmsCountMatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/CurrentLoadPercentageMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="360">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,16 +127,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="420">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +148,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,13 +160,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Builder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Vm.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/VmBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Server.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/CurrentLoadPercentageMatcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerVmsCountMatcher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Server.java" />
       </list>
     </option>
   </component>
@@ -220,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561627110923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561628256823" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -277,17 +297,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561620536704</updated>
-      <workItem from="1561620543739" duration="6040000" />
+      <workItem from="1561620543739" duration="7153000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ServerLoadBalancerTest - 2019.06.27 at 10h 31m 40s.xml">
-      <configuration name="ServerLoadBalancerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServerLoadBalancerTest - 2019.06.27 at 10h 33m 04s.xml">
-      <configuration name="ServerLoadBalancerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ServerLoadBalancerTest - 2019.06.27 at 10h 40m 25s.xml">
       <configuration name="ServerLoadBalancerTest" configurationId="JUnit" />
     </history-entry>
@@ -312,9 +326,15 @@
     <history-entry file="ServerLoadBalancerTest - 2019.06.27 at 11h 15m 50s.xml">
       <configuration name="ServerLoadBalancerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ServerLoadBalancerTest - 2019.06.27 at 11h 18m 16s.xml">
+      <configuration name="ServerLoadBalancerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerLoadBalancerTest - 2019.06.27 at 11h 35m 14s.xml">
+      <configuration name="ServerLoadBalancerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6040000" />
+    <option name="totallyTimeSpent" value="7153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="756" height="1053" extended-state="0" />
@@ -365,10 +385,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/VmBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/CurrentLoadPercentageMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerVmsCountMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        <state relative-caret-position="375">
+          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1189#1190#0" expanded="true" />
@@ -385,15 +449,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Vm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -411,42 +472,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Vm.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/ServerLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/VmBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/iis/mto/serverloadbalancer/CurrentLoadPercentageMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="420">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
